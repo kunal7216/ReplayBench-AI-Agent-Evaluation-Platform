@@ -1,0 +1,1 @@
+package com.kunal.replaybench.model; import jakarta.persistence.*; @Entity public class Scenario{ @Id @GeneratedValue(strategy=GenerationType.IDENTITY) public Long id; public String name; public String signal; public String expectedAction; public int severity; }

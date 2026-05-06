@@ -1,0 +1,1 @@
+package com.kunal.replaybench; import org.springframework.boot.SpringApplication; import org.springframework.boot.autoconfigure.SpringBootApplication; @SpringBootApplication public class ReplayBenchApplication{ public static void main(String[] args){SpringApplication.run(ReplayBenchApplication.class,args);} }

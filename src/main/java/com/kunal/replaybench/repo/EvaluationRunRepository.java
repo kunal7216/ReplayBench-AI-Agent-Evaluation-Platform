@@ -1,0 +1,1 @@
+package com.kunal.replaybench.repo; import com.kunal.replaybench.model.EvaluationRun; import org.springframework.data.jpa.repository.JpaRepository; import java.util.*; public interface EvaluationRunRepository extends JpaRepository<EvaluationRun,Long>{ List<EvaluationRun> findByAgentType(String agentType); }

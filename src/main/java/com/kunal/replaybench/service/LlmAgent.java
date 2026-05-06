@@ -1,0 +1,1 @@
+package com.kunal.replaybench.service; import com.kunal.replaybench.model.Scenario; import org.springframework.stereotype.Component; @Component public class LlmAgent implements AgentStrategy{ public String type(){return "LLM";} public String decide(Scenario s){ return s.severity>=8?"rollback_deployment":"restart_service"; }}

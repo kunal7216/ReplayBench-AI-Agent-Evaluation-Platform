@@ -1,0 +1,6 @@
+services:
+  app:
+    build: .
+    container_name: replaybench-ai-agent-evaluation-platform
+    ports:
+      - "8080:8080"
